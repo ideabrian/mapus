@@ -97,7 +97,7 @@ $(document).ready(function(){
       // Get initial location
       navigator.geolocation.getCurrentPosition(function(position){
         var icon = L.icon({
-          iconUrl: 'assets/livelocation.svg',
+          iconUrl: 'assets/liveLocation.svg',
           iconSize:     [24, 24],
           iconAnchor:   [12, 12],
         });
